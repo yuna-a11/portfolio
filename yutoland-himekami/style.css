@@ -1,0 +1,174 @@
+/* PC、スマホ共通スタイル */
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  max-width: 1080px;
+  margin: 0 auto 0 auto;  
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+p {
+  font-size: 15px;
+ }
+ img {
+  max-width: 100%;
+ }
+  /* ヘッダー */
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+
+ /* ナビゲーションのレイアウト */
+ #nav-pc {
+  font-size: 14px;
+}
+
+#nav-pc ul {
+  display: flex;
+  padding-left: 0;
+}
+
+#nav-pc li {
+  list-style: none;
+}
+
+/* ナビゲーションのリンクの装飾設定 */
+#nav-pc a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #0d0d0d;
+}
+
+#nav-pc a:hover {
+  text-decoration: underline;
+}
+/* メインビジュアル*/
+#main-visual {
+  position: relative;
+  height: 400px;
+}
+.main-img-1 {
+  background-image: url("img/utiburo.png");
+  background-repeat: no-repeat;
+  height: 608px;
+  width: 100%;
+}
+.main-img-2 {
+  background-image: url("img/utiburo.png");
+  background-repeat: no-repeat;
+  height: 608px;
+  width: 100%;
+}
+.main-img-3 {
+  background-image: url("img/utiburo.png");
+  background-repeat: no-repeat;
+  height: 608px;
+  width: 100%;
+}
+/* PC用カルーセル設定 */
+.carousel {
+  width: 885px;
+  height: 608px;
+  margin-left: 20px;
+}
+.slick-track {
+  height: 608px; 
+}
+.carouselImg {
+  width: 885px;
+}
+#carousel-section {
+  position: absolute;
+  top: 0;
+}
+#main-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:  #4D6600;
+  color: #fff;
+  border-radius: 0 0 350px 0;
+  max-width: 620px;
+  height: 100%;
+  width: 100%;
+  z-index: 11;
+}
+#main-message > h1 {
+  font-size: 55px;
+  margin: 100px 0 0 50px;
+}
+#main-message > p { 
+  font-size: 15px;
+  margin: 0 0 0 50px;
+}
+
+  /* 見出し */
+  h2 {
+    margin: 300px 0 0 0px;
+   
+  }
+  
+  h3 {
+    font-size: 17px;
+    
+  }
+   /* こだわり */
+   #kodawari {
+    margin: 80px auto 80px auto;
+    text-align: center;
+    
+  }
+  #kodawari-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+  }
+ 
+ 
+  
+  iframe {
+    margin-top: 100px;
+  }
+  footer {
+    background-color:  #4D6600;
+    margin-top: 300px;
+  }
+
+ .bunnkabu {
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  #bunnkabu img:hover {
+    transform: scale(1.2,1.2);
+    opacity: 0.7;
+  }
+  @media screen and (max-width: 1024px) {
+    /* ここに通常のCSSを書きます。以下は一例です */
+    div {
+         display: inline-block;
+    }
+    iframe {
+      max-width: 100%;
+    }
+    #main-visual > img {
+      height: 100vh;
+      object-fit: cover;
+    }
+    #main-img {
+      background-position: center center;
+    }
+    .flex-right,.flex-left{
+      display: block;
+
+    }
+    #kodawari-flex > div > div{
+      width: 100%;
+    }
+
