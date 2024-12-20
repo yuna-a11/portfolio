@@ -159,7 +159,7 @@ p {
 /* アニメーション */
 .sample-img {
   cursor: pointer;
-  max-width: 500px;
+  max-width: 360px;
   overflow: hidden;
   width: 100%;
 }
