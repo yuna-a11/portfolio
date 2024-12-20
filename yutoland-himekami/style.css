@@ -120,6 +120,7 @@ p {
   }
    /* こだわり */
    #kodawari {
+     max-width: 1080px;
     margin: 80px auto 80px auto;
     text-align: center;
     
@@ -130,6 +131,8 @@ p {
     margin-bottom: 50px;
 
   }
+
+.
  
  
   
