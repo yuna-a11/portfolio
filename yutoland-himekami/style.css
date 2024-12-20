@@ -158,6 +158,7 @@ p {
   }
 /* アニメーション */
 .sample-img {
+  border-radius: 50%;
   cursor: pointer;
   max-width: 360px;
   overflow: hidden;
