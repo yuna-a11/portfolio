@@ -72,17 +72,14 @@ p {
 }
 /* PC用カルーセル設定 */
 .carousel {
-  width: 100vw;
   height: 608px;
-  
-  
 }
 .slick-track {
   height: 608px; 
 }
 .carouselImg {
   width: 100%;
-  object-fit: cover;
+  background-size: cover;
 }
 #carousel-section {
   position: absolute;
