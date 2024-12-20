@@ -156,6 +156,20 @@ p {
     transform: scale(1.2,1.2);
     opacity: 0.7;
   }
+/* アニメーション */
+.sample-img {
+  cursor: pointer;
+  max-width: 500px;
+  overflow: hidden;
+  width: 100%;
+}
+.sample-img img {
+  height: auto;
+  transition: transform .6s ease; /* ゆっくり変化させる */
+}
+.sample-img:hover img {
+  transform: scale(1.1); /* 拡大 */
+}
   @media screen and (max-width: 1024px) {
     /* ここに通常のCSSを書きます。以下は一例です */
     div {
@@ -178,4 +192,6 @@ p {
     #kodawari-flex > div > div{
       width: 100%;
     }
+
+    
 
