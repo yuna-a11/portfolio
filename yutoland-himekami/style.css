@@ -157,6 +157,53 @@ p {
     transform: scale(1.2,1.2);
     opacity: 0.7;
   }
+
+/* contact */
+#contact  p {
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+#contact dt {
+  width: 15%;
+  margin-bottom: 10px;
+}
+
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+
+#contact dd input,
+#contact dd textarea {
+  width: 100%;
+  border: 1px solid #c8c8c8;
+  padding: 10px;
+}
+
+#contact dd textarea{
+  height: 10rem;
+}
+
+#contact .button {
+  text-align: center;
+}
+#contact .button input {
+  border: 1px solid #24292e;
+  background-color: #24292e;
+  color: #fff;
+  width: 200px;
+  padding: 15px 0;
+}
+#contact .button input:hover {
+  background-color: #fff;
+  color: #24292e;
+  transition: 0.3s;
+}
 /* アニメーション */
 .sample-img {
   border-radius: 50%;
