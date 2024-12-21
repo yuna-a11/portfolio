@@ -21,7 +21,12 @@ p {
     justify-content: space-between;
   }
  
-
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  font-size: 0.9rem;
+  padding: 0.4%;
+}
  /* ナビゲーションのレイアウト */
  #nav-pc {
   font-size: 14px;
