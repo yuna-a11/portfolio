@@ -158,7 +158,7 @@ p {
     opacity: 0.7;
   }
 
-/* contact */
+/* お問い合わせ */
 #contact  p {
  text-align: center;
  margin-bottom: 20px;
@@ -184,7 +184,6 @@ p {
   border: 1px solid #c8c8c8;
   padding: 10px;
 }
-
 #contact dd textarea{
   height: 10rem;
 }
@@ -204,6 +203,7 @@ p {
   color: #24292e;
   transition: 0.3s;
 }
+
 /* アニメーション */
 .sample-img {
   border-radius: 50%;
