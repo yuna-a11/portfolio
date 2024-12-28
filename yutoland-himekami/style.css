@@ -151,13 +151,16 @@ p {
  .facilities-img {
     cursor: pointer;
     transition: all 0.3s;
-   border-radius:44% 36% 26% 23% / 47% 30% 39% 29%;
   }
   
   .facilities-img:hover {
     transform: scale(1.2,1.2);
     opacity: 0.7;
   }
+.hall .trainingroom {
+  border-radius: 44% 36% 26% 23% / 47% 30% 39% 29%;
+}
+
 
 /* お問い合わせ */
 #contact  p {
