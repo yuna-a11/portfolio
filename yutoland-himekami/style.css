@@ -4,7 +4,6 @@
 }
 
 
-
 body {
   margin: 0 auto 0 auto;  
   font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
@@ -16,7 +15,8 @@ p {
  img {
   max-width: 100%;
  }
-  /* ヘッダー */
+
+/* ヘッダー */
   header {
     display: flex;
     justify-content: space-between;
@@ -148,15 +148,17 @@ p {
     margin-top: 300px;
   }
 
- .hall {
+ .facilities-img {
     cursor: pointer;
     transition: all 0.3s;
+   border-radius:44% 36% 26% 23% / 47% 30% 39% 29%;
   }
   
-  #hall img:hover {
+  .facilities-img:hover {
     transform: scale(1.2,1.2);
     opacity: 0.7;
   }
+
 /* お問い合わせ */
 #contact  p {
  text-align: center;
