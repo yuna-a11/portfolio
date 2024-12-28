@@ -148,12 +148,12 @@ p {
     margin-top: 300px;
   }
 
- .bunnkabu {
+ .hall {
     cursor: pointer;
     transition: all 0.3s;
   }
   
-  #bunnkabu img:hover {
+  #hall img:hover {
     transform: scale(1.2,1.2);
     opacity: 0.7;
   }
