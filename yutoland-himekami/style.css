@@ -223,8 +223,10 @@ p {
 .sample-img:hover img {
   transform: scale(1.1); /* 拡大 */
 }
+
+/*  @media screen and (min-width: 768px) { */
   @media screen and (max-width: 1024px) {
-    /* ここに通常のCSSを書きます。以下は一例です */
+    
     div {
          display: inline-block;
     }
@@ -253,6 +255,14 @@ p {
     max-width: unset;
   }
   }
+/*   } */
+/*====================
+  スマートフォン用のスタイル
+  =====================*/
+/*   @media screen and (max-width: 767px) {
+  
+  } */
+
 
     
 
