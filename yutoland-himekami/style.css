@@ -22,27 +22,6 @@ p {
     justify-content: space-between;
   }
  
-/* .site-tittle {
-  line-height:  1px;
-  font-weight: 600px;
-  font-size: 2.4rem;
-}
-.site-tittle  a {
-  color: #24292e;
-  display: block;
-  padding: 20px;
-}
-.sec-title {
-  font-size: 1.5rem;
-  text-align: center;
-  margin-bottom: 65px;
-}
-.wrapper {
-  max-width: 960px;
-  margin: 0 auto 130px auto;
-  font-size: 0.9rem;
-  padding: 0.4%;
-} */
  /* ナビゲーションのレイアウト */
  #nav-pc {
   font-size: 14px;
