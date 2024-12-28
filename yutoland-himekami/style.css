@@ -302,6 +302,33 @@ p {
    #logo-sp {
      margin: 80px 0 30px 20px;
    }
+   /* ナビゲーションのリンクの装飾設定 */
+   #nav-sp > a {
+     display: block;
+   }
+   #nav-sp > a:link {
+     color: #ffffff;
+   }
+   #nav-sp > a:visited {
+     color: #ffffff;
+   }
+   #nav-sp > a:hover {
+     color: #ffffff;
+     text-decoration: underline;
+   }
+   #nav-sp > a:active {
+     color: #ffffff;
+   }
+   #nav-sp > .menu {
+     text-decoration: none;
+     display: block;
+     margin: 0 20px 0 20px;
+     height: 44px;
+     font-size: 16px;
+     background-image: url("images/arrow.png");
+     background-repeat: no-repeat;
+     background-position: right top;
+   }
   } 
 
 
