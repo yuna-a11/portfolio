@@ -228,10 +228,10 @@ p {
 /* アニメーション */
 .sample-img {
   border-radius: 50%;
-  
   max-width: 360px;
   overflow: hidden;
   width: 100%;
+  line-height: 0;
 }
 .sample-img img {
   height: auto;
