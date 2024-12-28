@@ -211,6 +211,7 @@ p {
   overflow: hidden;
   width: 100%;
   line-height: 0;
+  border-radius: 44% 36% 26% 23% / 47% 30% 39% 29%;
 }
 .sample-img img {
   height: auto;
