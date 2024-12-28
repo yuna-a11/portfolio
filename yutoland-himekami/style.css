@@ -119,13 +119,13 @@ p {
     
   }
    /* こだわり */
-   #kodawari {
+   #commitment {
     max-width: 1080px;
     margin: 80px auto 80px auto;
     text-align: center;
     padding: 0 5%;
   }
-  #kodawari-flex {
+  #commitment-flex {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
@@ -238,10 +238,10 @@ p {
       display: block;
 
     }
-    #kodawari-flex > div > div{
+    #commitment-flex > div > div{
       width: 100%;
     }
-    #kodawari-flex {
+    #commitment-flex {
     flex-direction: column;
       padding: 0;
     }
