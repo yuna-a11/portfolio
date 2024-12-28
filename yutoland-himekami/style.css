@@ -264,6 +264,7 @@ p {
     }
     #kodawari-flex {
     flex-direction: column;
+      padding: 0;
     }
   .sample-img {
     max-width: unset;
