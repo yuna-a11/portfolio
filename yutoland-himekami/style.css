@@ -262,6 +262,9 @@ p {
     #kodawari-flex > div > div{
       width: 100%;
     }
+    #kodawari-flex {
+    flex-direction: column;
+    }
 
     
 
