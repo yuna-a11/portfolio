@@ -270,6 +270,10 @@ max-width: 500px;
    #main-message > h1 {
      font-size: 30px;
    }
+    #main-message > p {
+      margin: 30px 50px 0 30px;
+    }
+   
  #commitment-flex > div > div{
       width: 100%;
     }
