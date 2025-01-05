@@ -244,20 +244,7 @@ p {
     #main-img {
       background-position: center center;
     }
-    .flex-right,.flex-left{
-      display: block;
-
-    }
-    #commitment-flex > div > div{
-      width: 100%;
-    }
-    #commitment-flex {
-    flex-direction: column;
-      padding: 0;
-    }
-  .sample-img {
-    max-width: unset;
-  }
+  
 } 
 
 
@@ -269,7 +256,16 @@ p {
      min-width: 375px;
      margin: 0;
    }
- 
+ #commitment-flex > div > div{
+      width: 100%;
+    }
+    #commitment-flex {
+    flex-direction: column;
+      padding: 0;
+    }
+  .sample-img {
+    max-width: unset;
+  }
    /* PC用ナビゲーション非表示 */
    #nav-pc {
      display: none;
