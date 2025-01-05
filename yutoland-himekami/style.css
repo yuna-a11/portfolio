@@ -15,7 +15,11 @@ p {
  img {
   max-width: 100%;
  }
-
+.index-h2 {
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 /* ヘッダー */
   header {
     display: flex;
