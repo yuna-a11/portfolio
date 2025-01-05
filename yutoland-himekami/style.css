@@ -170,18 +170,15 @@ p {
 }
 
 #contact dl {
-  display: flex;
-  flex-wrap: wrap;
   max-width: 80%;
  margin: 0 auto;
 }
 #contact dt {
-  width: 15%;
+  text-align: left;
   margin-bottom: 10px;
 }
 
 #contact dd {
-  width: 85%;
   margin-bottom: 10px;
 }
 
