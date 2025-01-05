@@ -225,7 +225,11 @@ p {
 }
 
 @media screen and (min-width: 768px) { 
-  @media screen and (max-width: 1024px) {
+  /* スマホ用ナビを非表示 */
+   #nav-sp,
+   #menu-sp {
+     display: none;
+   }
     
     div {
          display: inline-block;
@@ -253,7 +257,6 @@ p {
     }
   .sample-img {
     max-width: unset;
-  }
   }
 } 
 
