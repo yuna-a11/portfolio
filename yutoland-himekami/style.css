@@ -147,12 +147,6 @@ p {
     background-color:  #4D6600;
     margin-top: 300px;
   }
-
- .facilities-img {
-    cursor: pointer;
-    transition: all 0.3s;
-    border-radius: 44% 36% 26% 23% / 47% 30% 39% 29%;
-  }
   
   .facilities-img:hover {
     transform: scale(1.2,1.2);
@@ -216,6 +210,11 @@ p {
   width: 100%;
   line-height: 0;
 }
+.facilities-img {
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 44% 36% 26% 23% / 47% 30% 39% 29%;
+  }
 .sample-img img {
   height: auto;
   transition: transform .6s ease; /* ゆっくり変化させる */
