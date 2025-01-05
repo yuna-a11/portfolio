@@ -267,6 +267,9 @@ max-width: 500px;
      min-width: 375px;
      margin: 0;
    }
+   h1 {
+     font-size: 30px;
+   }
  #commitment-flex > div > div{
       width: 100%;
     }
