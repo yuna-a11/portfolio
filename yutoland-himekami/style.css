@@ -210,6 +210,10 @@ p {
   width: 100%;
   line-height: 0;
 }
+.sample-img.facilities-img {
+max-width: 500px;
+}
+
 .facilities-img {
     cursor: pointer;
     transition: all 0.3s;
